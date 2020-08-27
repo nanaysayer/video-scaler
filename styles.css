@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.flex-container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
